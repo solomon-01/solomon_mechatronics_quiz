@@ -5,9 +5,11 @@
 A simple multiple-choice quiz about mechatronics topics. The program asks questions one by one, checks your answers, keeps score and shows your final percentage with a grade.
 
 ## How to run it
-Install Python 3, then run:python mechatronics_quiz.py
+Install Python 3, then run: `python mechatronics_quiz.py`
 
-## Sample output 
+## Sample output
+
+```
 === Mechatronics Quiz App ===
 Answer each question with A, B, C or D.
 
@@ -22,8 +24,10 @@ Correct!
 ========== RESULT ==========
 You scored 4 out of 5
 Percentage: 80.0%
-Grade: A  Excellent work!
-===========================
+Grade: A
+Excellent work!
+```
+
 ## My own twist
 After every wrong answer the program immediately shows the correct option. At the end it also gives a letter grade (A–D) with a short message.
 
